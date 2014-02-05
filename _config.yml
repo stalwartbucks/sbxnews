@@ -1,0 +1,5 @@
+name: Stalwartbucks News
+markdown: redcarpet
+pygments: true
+description: News about the Stalwartbucks cryptocurrency
+url: http://stalwartbucks.com

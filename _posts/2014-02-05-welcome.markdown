@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2014-02-05 16:50:03
+---
+
+Welcome! We will post news and other updates about Stalwartbucks
+from time to time.
