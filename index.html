@@ -3,8 +3,19 @@ layout: default
 title: Stalwartbucks News
 ---
 
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
+{% assign author = site.authors[post.author] %}
+
 <div id="home">
-  <h1>Entries</h1>
+<h1>{{ post.title }}</h1>
+<p class="meta">{{ post.date | date_to_string }} by <a href="https://twitter.com/{{author.twitter}}">{{author.display_name}}</a></p>
+
+<div class="post">
+{{ content }}
+</div>
+
+  <h1>Older news</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
