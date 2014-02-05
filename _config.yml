@@ -3,3 +3,8 @@ markdown: redcarpet
 pygments: true
 description: News about the Stalwartbucks cryptocurrency
 url: http://stalwartbucks.com
+authors:
+  guan:
+    twitter: guan
+    display_name: Guan
+    full_name: Guan Yang

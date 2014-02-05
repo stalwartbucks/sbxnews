@@ -2,7 +2,8 @@
 layout: post
 title:  "Welcome!"
 date:   2014-02-05 16:50:03
+author: guan
 ---
 
-Welcome! We will post news and other updates about Stalwartbucks
+We will post news and other updates about Stalwartbucks
 from time to time.
